@@ -1,2 +1,2 @@
-#!/usr/bin/env bash
-find . -empty -printf '%f\n'
+#!/bin/bash
+find . -empty | sed 's|.*/||' | sort -u
