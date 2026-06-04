@@ -1,0 +1,2 @@
+#!/usr/bin/env bash
+find . -empty -printf '%f\n'
