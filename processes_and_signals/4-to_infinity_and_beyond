@@ -1,4 +1,5 @@
-#!/bin/bash
+#!/usr/bin/env bash
+# Display "To infinity and beyond" forever, pausing 2s between iterations
 while true; do
     echo "To infinity and beyond"
     sleep 2

@@ -1,4 +1,5 @@
-#!/bin/bash
+#!/usr/bin/env bash
+# Continuously write a heartbeat message to a log file every 2 seconds
 while true; do
     echo "I am alive!" >> /tmp/my_process
     sleep 2

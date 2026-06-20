@@ -1,4 +1,5 @@
-#!/bin/bash
+#!/usr/bin/env bash
+# Write a PID file and handle SIGINT, SIGTERM, SIGQUIT differently
 echo $$ > /var/run/myscript.pid
 
 sigterm_handler() {
